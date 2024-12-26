@@ -1,6 +1,6 @@
 # Nonogram Guarantee Checker
 
-A Python-based GUI application that calculates guaranteed cells in a row or column of a nonogram puzzle. The application provides a user-friendly interface to input puzzle parameters and visualize guaranteed cells.
+A Python-based GUI application that calculates guaranteed cells in a row or column of a nonogram puzzle. WHAT IS A NONOGRAM PUZZLE, YOU MAY ASK??? CHECK IT OUT HERE: https://www.puzzle-nonograms.com/. GREAT FUN TO BE HAD! The application provides a user-friendly interface to input puzzle parameters and visualize guaranteed cells.
 
 ## Features
 
@@ -72,7 +72,7 @@ nonogram-guarantee-checker/
 ---
 
 ## Example Screenshot
-![Nonogram GUI Example](https://ibb.co/5nmsDL7)
+![Nonogram GUI Example](https://gcdnb.pbrd.co/images/3krcxqW1YGeI.png?o=1)
 
 ---
 
@@ -102,4 +102,3 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Acknowledgments
 
 - **Developer**: Aaron Ordonez
-```
