@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
-from main import process_input, nonogram_logic  # Import your logic functions
+from nonogram_guarantee import process_input, nonogram_logic  
 
 
 
@@ -40,7 +40,7 @@ submit_button.pack(pady=8)
 result_label = ttk.Label(root, text="", justify="center")
 result_label.pack()
 
-footer = ttk.Label(root, text="this is a #aaronclassic", font=("Comic Sans MS", 10))
+footer = ttk.Label(root, text="this is a #aaronclassic | version 1.0", font=("Comic Sans MS", 10))
 footer.pack(side="bottom", pady=10)
 
 root.mainloop()

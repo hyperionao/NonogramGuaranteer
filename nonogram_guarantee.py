@@ -1,7 +1,25 @@
 def calculate_blanks(length, runs_list):
+    """_summary_
+
+    Args:
+        length (_type_): _description_
+        runs_list (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     return length - (sum(runs_list) + (len(runs_list) - 1))
 
 def process_input(length, runs):
+    """_summary_
+
+    Args:
+        length (_type_): _description_
+        runs (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     try:
         length = int(length)
         runs_list = [int(run) for run in runs.split()]
@@ -10,6 +28,15 @@ def process_input(length, runs):
         return None, None
 
 def nonogram_logic(length, runs_list):
+    """_summary_
+
+    Args:
+        length (_type_): _description_
+        runs_list (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     blanks = calculate_blanks(length, runs_list)
 
     if blanks < 0:
